@@ -1,0 +1,87 @@
+body {
+	font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    
+    background: url("../img/background/pattern.jpg");
+}
+
+#main {
+    background-color: white;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0 0 100px rgb(254 246 205);
+	border-radius: 10px;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+	clear: both;
+}
+
+h2 {
+    padding-top: 1.5%;
+    text-align: center;
+	clear: both;
+}
+
+.clr {
+    display: block;
+	width: 100%;
+    font-size: 1px;
+	color: white;
+	clear: both;
+}
+
+.img-logo {
+    height: 100%;
+    width: 100%;
+}
+
+
+.outer:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.inner {
+    display: inline-block;
+    vertical-align: middle;
+}
+.outer {
+    text-align: center;
+}
+
+.footer-text {
+    color: rgb(110, 110, 110);
+    text-align: right;
+    line-height: 0.3em;
+    font-size: 90%;
+}
+.footer-link {
+    font-size: 110%;
+}
+
+
+.nav {
+    margin: 5% 10% 5% 0%;
+}
+.nav > li {
+	list-style: none;
+}
+.link {
+    font-size: 120%;
+    text-align: center;
+}
+
+
+.main-paragraph > p {
+    font-size: larger;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.inline-img {
+	width: 99%;
+	border-radius: 10px;
+}

@@ -1,0 +1,114 @@
+@media only screen {
+
+    body {
+        padding: 0% 10% 0% 10%;
+    }
+
+    #logo {
+        padding-left: 5%;
+        width: 20%;
+        height: 250px;
+        float: left;
+        text-align: -webkit-center;
+    }
+
+    #menu {
+        width: 75%;
+        height: 250px;
+        float: left;
+        vertical-align: middle;
+    }
+
+    #left {
+        width: 25%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        height: max-content;
+        float: left;
+    }
+
+    #content {
+        width: 75%;
+        height: max-content;
+        float: left;
+    }
+    
+
+    #footer {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    .gallery-img {
+        width: 98%;
+        margin: 1% 1% 1% 1%;
+        border-radius: 10px;
+        float: left;
+    }
+
+    #gallery-1 {
+        width: 50%;
+        float: left;
+    }
+    #gallery-2 {
+        width: 50%;
+        float: left;
+    }
+}
+
+
+@media only screen and (max-width: 970px){
+
+    body {
+        padding: 0 0 0 0;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #menu {
+        width: 100%;
+        height: auto;
+    }
+
+    #left {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+        height: max-content;
+    }
+
+    #content {
+        width: 100%;
+        height: max-content;
+    }
+
+    #footer {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    .gallery-img {
+        width: 98%;
+        margin: 1% 1% 1% 1%;
+        border-radius: 10px;
+        float: left;
+    }
+
+    #gallery-1 {
+        width: 100%;
+        float: left;
+    }
+    #gallery-2 {
+        width: 100%;
+        float: left;
+    }
+}
+
+#footer-part-2 {
+    width: 70%;
+    float: right;
+}
